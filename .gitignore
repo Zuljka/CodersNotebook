@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.iml
 .gradle
 /local.properties
@@ -6,3 +7,12 @@
 .DS_Store
 /build
 /captures
+=======
+.DS_Store
+applet
+application.linux32
+application.linux64
+application.windows32
+application.windows64
+application.macosx
+>>>>>>> dedef327331cd8ecd8206dc842417bce90342a2e
