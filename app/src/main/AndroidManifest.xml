@@ -18,6 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".menu_screen_01"
+            android:label="@string/title_activity_menu_screen_01"></activity>
     </application>
 
 </manifest>
