@@ -20,11 +20,20 @@ public class MainActivity extends AppCompatActivity {
         //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         //setSupportActionBar(toolbar);
 
-        Button button = (Button) findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
+        Button HTML = (Button) findViewById(R.id.HTML);
+        HTML.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(v.getContext(), menu_screen_01.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+
+        Button CSS = (Button) findViewById(R.id.CSS);
+        CSS.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), CSS.class);
                 startActivityForResult(intent, 0);
             }
         });
