@@ -5,5 +5,17 @@
     <string name="title_activity_splash">Splash</string>
     <string name="title_activity_css">CSS</string>
     <string name="html_title">HTML hints</string>
+    <string name="css_title">CSS hints</string>
+    <string name="logo">picture</string>
+    <string name="logo1">html_logo_1</string>
+    <string name="html_title_name1">HTML page structure</string>
+    <string name="html_title_name1_content1">Basic code that will help to build any HTML page and also display it in WEB browser.
+    Explained how to save file correctly.</string>
+
+    <string name="logo2">html_logo_2</string>
+    <string name="html_title_name2">Font size</string>
+    <string name="html_title_name_content2">Explanation of font sizes</string>
+    <string name="title_activity_html_content_01">html_content_01</string>
+
 
 </resources>
