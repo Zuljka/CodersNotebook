@@ -1,5 +1,5 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/ScrollView01"
+    android:id="@+id/ScrollView02"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
 
@@ -13,7 +13,7 @@
             android:layout_height="50dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="CSS hints"
-            android:id="@+id/textView"
+            android:id="@+id/html_title"
             android:background="#7d65d4"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
@@ -29,7 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:showDividers="beginning|middle|end"
-            android:layout_below="@+id/textView"
+            android:layout_below="@+id/html_title"
             android:visibility="visible"
             android:background="#dfeaae"
             android:id="@+id/linearLayout"

@@ -4,4 +4,6 @@
     <string name="title_activity_menu_screen_01">menu_screen_01</string>
     <string name="title_activity_splash">Splash</string>
     <string name="title_activity_css">CSS</string>
+    <string name="html_title">HTML hints</string>
+
 </resources>
