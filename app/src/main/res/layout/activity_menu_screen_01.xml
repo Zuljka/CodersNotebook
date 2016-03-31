@@ -8,16 +8,34 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" >
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="HTML hints"
+            android:id="@+id/textView"
+            android:background="#f76f6f"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:textColor="#fefcfc"
+            android:textStyle="bold">
+        </TextView>
+
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:showDividers="beginning|middle|end"
+            android:layout_below="@+id/textView"
             android:visibility="visible"
             android:background="#f4c590"
             android:id="@+id/linearLayout"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"></LinearLayout>
+            android:layout_alignParentStart="true">
+        </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
