@@ -19,6 +19,7 @@
     <string name="html_title_name2">Font size</string>
     <string name="html_title_name_content2">Explanation of font sizes</string>
     <string name="title_activity_html_content_01">html_content_01</string>
+    <string name="title_activity_html_01">html_01</string>
 
 
 </resources>

@@ -33,6 +33,9 @@
         <activity
             android:name=".CSS"
             android:label="@string/title_activity_css" />
+        <activity
+            android:name=".html_01"
+            android:label="@string/title_activity_html_01"></activity>
     </application>
 
 </manifest>

@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         CSS.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), menu_screen_01.class);
+                Intent intent = new Intent(v.getContext(), CSS.class);
                 startActivityForResult(intent, 0);
             }
         });
