@@ -52,17 +52,47 @@
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:padding="5dp"
-                    android:src="@drawable/ironman"
+                    android:src="@drawable/html_logo_01"
                     android:contentDescription="@string/logo1" />
 
                 <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/explore"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
                     android:id="@+id/html_content_01"
+                    android:background="@drawable/explore_orange"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true" />
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="17dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_marginBottom="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/html_title_name1"
+                    android:id="@+id/html_title_01"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/html_logo01"
+                    android:textColor="#9a7d5c"
+                    android:background="#f6b670"
+                    android:layout_alignRight="@+id/html_content_01"
+                    android:layout_alignEnd="@+id/html_content_01" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/html_title_name1_content1"
+                    android:id="@+id/textView3"
+                    android:layout_below="@+id/html_title_01"
+                    android:layout_alignRight="@+id/html_content_01"
+                    android:layout_alignEnd="@+id/html_content_01"
+                    android:layout_marginRight="31dp"
+                    android:layout_marginEnd="31dp"
+                    android:layout_toRightOf="@+id/html_logo01"
+                    android:layout_toEndOf="@+id/html_logo01"
+                    android:textColor="#6b563e" />
             </RelativeLayout>
 
         </LinearLayout>
@@ -88,10 +118,36 @@
                     android:id="@+id/html_logo02"
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
+                    android:layout_alignParentStart="false"
                     android:padding="5dp"
-                    android:src="@drawable/ironman"
+                    android:src="@drawable/ironman02"
                     android:contentDescription="@string/logo2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/html_title_name2"
+                    android:id="@+id/html_title_02"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/html_logo02"
+                    android:textColor="#5b816b"
+                    android:background="#80f5b0"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/html_content_02"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/html_title_02"
+                    android:layout_alignEnd="@+id/html_title_02"
+                    android:background="@drawable/explore_green"
+                    android:layout_marginRight="17dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_marginBottom="15dp" />/>
+
             </RelativeLayout>
 
         </LinearLayout>
