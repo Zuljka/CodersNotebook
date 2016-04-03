@@ -120,8 +120,9 @@
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="false"
                     android:padding="5dp"
-                    android:src="@drawable/ironman02"
-                    android:contentDescription="@string/logo2" />
+                    android:src="@drawable/html_logo_02"
+                    android:contentDescription="@string/logo2"
+                    android:cropToPadding="true" />
 
                 <TextView
                     android:layout_width="wrap_content"

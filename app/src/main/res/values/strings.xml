@@ -14,12 +14,22 @@
     <string name="html_title_name1">Start to build</string>
     <string name="html_title_name1_content1">Basic code that will help beginner to build any HTML page from scratch and also open it in WEB browser.
     Explained how to save file correctly.</string>
+    <string name="html_01_tutor_01">To start to build a website we do not need any fancy programms and extra software.
+    Any computer will be able to do the job, regardless its specifications.\n
+    So we begin ... </string>
+    <string name="html_01_tutor_02">Open Notepad (preinstalled on all Windows machines), icon on the left, or download Notepad ++,
+    icon on the right. Believe it or not, that is basically  the software that is used for creating most of the programms.
+    Then add code below and save file as index.html. Or give any other name, but keep .html extention.</string>
+    <string name="html_01_tutor_03"> HTML code goes here  </string>
+    <string name="notepad">notepad</string>
+
 
     <string name="logo2">html_logo_2</string>
     <string name="html_title_name2">Font size</string>
     <string name="html_title_name_content2">Explanation of font sizes</string>
     <string name="title_activity_html_content_01">html_content_01</string>
     <string name="title_activity_html_01">html_01</string>
+    <string name="title_activity_html_02">html_02</string>
 
 
 </resources>
