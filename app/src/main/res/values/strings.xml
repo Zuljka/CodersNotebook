@@ -144,7 +144,7 @@
 
     </string>
     <string name="html_03_tutor_09"> This example shows how columns are merged if number is less than number of columns below.
-        For 'Avengers' cell span in set to '2', but for 'just a cell' span is set to '3', so merges all three columns.
+        For "Avengers" cell span in set to "2", but for "just a cell" span is set to "3", so merges all three columns.
     </string>
 
     <string name="title_activity_html_01">html_01</string>
