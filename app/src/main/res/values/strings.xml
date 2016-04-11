@@ -29,7 +29,7 @@
     This is my first page \n
     </body> \n
 
-   </html
+   </html>
     ]]>  </string>
     <string name="notepad">notepad</string>
 
@@ -42,7 +42,22 @@
     </string>
     <string name="html_02_tutor_01">
         In HTML font size is available in 6 different variations. To hange the size of the text simply wrap text into
-        corresponding tags. All tags are listed below ...
+        corresponding tags. All tags are listed below ... \n
+        Please note that all content goest into BODY part of a page. In the future only code from body part will be displayed.
+    </string>
+
+    <string name="html_02_tutor_02"><![CDATA[
+    <body> \n
+
+    <h1> Size 1 </h1> \n
+    <h2> Size 2 </h2> \n
+    <h3> Size 3 </h3> \n
+    <h4> Size 4 </h4> \n
+    <h5> Size 5 </h5> \n
+    <h6> Size 6 </h6> \n
+    </body> \n
+    ]]>
+
     </string>
 
     <string name="title_activity_html_01">html_01</string>
