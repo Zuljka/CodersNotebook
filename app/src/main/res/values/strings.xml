@@ -57,11 +57,99 @@
     <h6> Size 6 </h6> \n
     </body> \n
     ]]>
+    </string>
 
+    <string name="logo3">html_logo_3</string>
+    <string name="html_title_name3">Tables</string>
+    <string name="html_title_name3_content3"> Explanation of tables. \n
+    How and where to use them, how to structure tables and make them invisible on a page. \n
+    </string>
+    <string name="html_03_tutor_01"> Tables are used to arrange different information on a page, such as text or picturs and
+    make design nice and clean. \n
+        Tables can be visible or invisible for a user. All that is done by setting table border parameters.\n
+        Every table is made of table rows (tr) and table data(td). \n
+        By default table borders are invisible, but by adding "border = 1", border will apper.
+        Number can vary, depending how you want your table to look like. \n
+        Here are some examples..
+    </string>
+    <string name="html_03_tutor_02"><![CDATA[
+    <table border="1"> \n
+	<tr> \n
+	    <td> John  </td> \n
+		<td> Smith </td> \n
+	</tr> \n
+
+    </table> \n ]]>
+    </string>
+    <string name="html_03_tutor_03">
+        <![CDATA[
+        <table> \n
+	       <tr> \n
+            <td bgcolor="yellow"> John  </td> \n
+            <td bgcolor="00FF00"> Smith </td> \n
+        </tr> \n
+
+        </table> \n
+
+        ]]>
+    </string>
+    <string name="html_03_tutor_04"> Here bgcolor is used to show how to change background color
+        and also display two table columns </string>
+    <string name="html_03_tutor_05">Other, more complicated, examples of arranging cells in tables </string>
+    <string name="html_03_tutor_06"> <![CDATA[
+    <table border="1"> \n
+	<tr>  \n
+		<td colspan="2"> Avengers  </td> \n
+
+	</tr> \n
+	<tr> \n
+		<td> Tony </td> \n
+		<td> Stark </td> \n
+	</tr> \n
+	<tr> \n
+		<td> Bruce </td> \n
+		<td> Banner </td> \n
+	</tr> \n
+
+    </table> \n
+    ]]>
+
+    </string>
+    <string name="html_03_tutor_07"> Colspan is used to merge columns into one.
+        Rows can be merged together as well. Number of columns or rows to merge can be equal or less than number of
+    columns above or below and than number of columns to the right or to the left.</string>
+    <string name="html_03_tutor_08"> <![CDATA[
+    <table border="1"> \n
+	<tr> \n
+		<td colspan="2"> Avengers  </td> \n
+
+	</tr> \n
+	<tr> \n
+		<td> Tony </td> \n
+		<td> Stark </td> \n
+		<td rowspan="2"> friends </td> \n
+	</tr> \n
+	<tr> \n
+		<td> Bruce </td> \n
+		<td> Banner </td> \n
+
+
+	</tr> \n
+	<tr> \n
+		<td colspan="3">just a cell </td> \n
+	</tr> \n
+
+</table> \n
+    ]]>
+
+    </string>
+    <string name="html_03_tutor_09"> This example shows how columns are merged if number is less than number of columns below.
+        For 'Avengers' cell span in set to '2', but for 'just a cell' span is set to '3', so merges all three columns.
     </string>
 
     <string name="title_activity_html_01">html_01</string>
     <string name="title_activity_html_02">html_02</string>
+    <string name="title_activity_html_03">html_03</string>
 
 
 </resources>

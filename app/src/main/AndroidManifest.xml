@@ -38,7 +38,10 @@
             android:label="@string/title_activity_html_01" />
         <activity
             android:name=".html_02"
-            android:label="@string/title_activity_html_02"></activity>
+            android:label="@string/title_activity_html_02" />
+        <activity
+            android:name=".html_03"
+            android:label="@string/title_activity_html_03"></activity>
     </application>
 
 </manifest>

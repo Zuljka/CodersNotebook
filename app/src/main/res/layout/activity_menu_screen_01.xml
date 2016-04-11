@@ -84,7 +84,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/html_title_name1_content1"
-                    android:id="@+id/textView4"
+                    android:id="@+id/html_1"
                     android:layout_below="@+id/html_title_01"
                     android:layout_alignRight="@+id/html_content_01"
                     android:layout_alignEnd="@+id/html_content_01"
@@ -153,7 +153,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/html_title_name2_content2"
-                    android:id="@+id/textView3"
+                    android:id="@+id/html_2"
                     android:layout_below="@+id/html_title_02"
                     android:layout_alignRight="@+id/html_content_02"
                     android:layout_alignEnd="@+id/html_content_02"
@@ -171,12 +171,68 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:background="#c6e4bb"
+            android:background="#f4c590"
             android:layout_below="@+id/linearLayout2"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:id="@+id/linearLayout3">
 
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/html_logo03"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="false"
+                    android:padding="5dp"
+                    android:src="@drawable/html_logo_03"
+                    android:contentDescription="@string/logo3"
+                    android:cropToPadding="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/html_title_name3"
+                    android:id="@+id/html_title_03"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/html_logo03"
+                    android:textColor="#9a7d5c"
+                    android:background="#f6b670"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/html_content_03"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/html_title_03"
+                    android:layout_alignEnd="@+id/html_title_03"
+                    android:background="@drawable/explore_orange"
+                    android:layout_marginRight="17dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_marginBottom="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/html_title_name3_content3"
+                    android:id="@+id/html_3"
+                    android:layout_below="@+id/html_title_03"
+                    android:layout_alignRight="@+id/html_content_03"
+                    android:layout_alignEnd="@+id/html_content_03"
+                    android:layout_marginRight="31dp"
+                    android:layout_marginEnd="31dp"
+                    android:layout_toRightOf="@+id/html_logo03"
+                    android:layout_toEndOf="@+id/html_logo03"
+                    android:textColor="#6b563e" />
+
+            </RelativeLayout>
 
 
         </LinearLayout>

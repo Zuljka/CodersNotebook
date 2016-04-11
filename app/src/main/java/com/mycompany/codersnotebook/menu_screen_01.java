@@ -30,6 +30,15 @@ public class menu_screen_01 extends Activity {
                 startActivityForResult(intent, 0);
             }
         });
+
+        Button html_content_03 = (Button) findViewById(R.id.html_content_03);
+        html_content_03.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), html_03.class);
+                startActivityForResult(intent, 0);
+            }
+        });
     }
 
 }
