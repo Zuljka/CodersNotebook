@@ -14,7 +14,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/css_title"
             android:id="@+id/html_title"
-            android:background="#7d65d4"
+            android:background="#644db7"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentLeft="true"
@@ -31,10 +31,67 @@
             android:showDividers="beginning|middle|end"
             android:layout_below="@+id/html_title"
             android:visibility="visible"
-            android:background="#f4c590"
+            android:background="#9db9ec"
             android:id="@+id/linearLayout"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/html_logo03"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="false"
+                    android:padding="5dp"
+                    android:src="@drawable/html_logo_03"
+                    android:contentDescription="@string/logo3"
+                    android:cropToPadding="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/css_title_name1"
+                    android:id="@+id/html_title_03"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/html_logo03"
+                    android:textColor="#c5d8fa"
+                    android:background="#4869a6"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/html_content_03"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/html_title_03"
+                    android:layout_alignEnd="@+id/html_title_03"
+                    android:background="@drawable/explore_orange"
+                    android:layout_marginRight="17dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_marginBottom="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/css_title_name1_content"
+                    android:id="@+id/html_3"
+                    android:layout_below="@+id/html_title_03"
+                    android:layout_alignRight="@+id/html_content_03"
+                    android:layout_alignEnd="@+id/html_content_03"
+                    android:layout_marginRight="31dp"
+                    android:layout_marginEnd="31dp"
+                    android:layout_toRightOf="@+id/html_logo03"
+                    android:layout_toEndOf="@+id/html_logo03"
+                    android:textColor="#6b563e" />
+
+            </RelativeLayout>
 
 
         </LinearLayout>
@@ -43,7 +100,7 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:background="#b7b07b"
+            android:background="#d190b9"
             android:layout_below="@+id/linearLayout"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
@@ -54,7 +111,7 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:background="#c6e4bb"
+            android:background="#9db9ec"
             android:layout_below="@+id/linearLayout2"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
@@ -65,7 +122,7 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:background="#adadc7"
+            android:background="#d190b9"
             android:layout_below="@+id/linearLayout3"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"

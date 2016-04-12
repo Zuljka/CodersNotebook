@@ -151,5 +151,8 @@
     <string name="title_activity_html_02">html_02</string>
     <string name="title_activity_html_03">html_03</string>
 
+    <string name="css_title_name1"> Link your Style </string>
+    <string name="css_title_name1_content"> Here is shown how to add link .css file to the html file to styles will be applied. \n
+    Ctyling can be done for whole website or for different pages separately.</string>
 
 </resources>
