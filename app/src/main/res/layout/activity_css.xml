@@ -48,7 +48,7 @@
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="false"
                     android:padding="5dp"
-                    android:src="@drawable/html_logo_03"
+                    android:src="@drawable/css_logo_01"
                     android:contentDescription="@string/logo3"
                     android:cropToPadding="true" />
 

@@ -12,4 +12,12 @@ In my project I am trying to put together all nessesary information that might h
 There are a lot of variations of modifications that can be made on a page, but I will try to cover most common ones and will leave something uncovered for exploration ;)
 
 TODO: 
- - add font families to html Fonts
+- add font families to html Fonts
+- add: 
+    lists
+    divs
+    pictures
+    links
+    color ( transparency in CSS)
+    lines (horizontal, vertical)
+    paragraphs and other page structure content
