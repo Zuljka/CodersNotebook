@@ -43,36 +43,36 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:id="@+id/html_logo03"
+                    android:id="@+id/css_logo01"
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="false"
+                    android:layout_alignParentStart="true"
                     android:padding="5dp"
                     android:src="@drawable/css_logo_01"
-                    android:contentDescription="@string/logo3"
-                    android:cropToPadding="true" />
+                    android:contentDescription="@string/logo1" />
+
+
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:text="@string/css_title_name1"
-                    android:id="@+id/html_title_03"
+                    android:id="@+id/css_title_01"
                     android:layout_alignParentTop="true"
-                    android:layout_toRightOf="@+id/html_logo03"
-                    android:textColor="#c5d8fa"
-                    android:background="#4869a6"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true" />
-
+                    android:layout_toRightOf="@+id/css_logo01"
+                    android:textColor="#bcd1f8"
+                    android:background="#718ec2"
+                    android:layout_alignRight="@+id/css_content_01"
+                    android:layout_alignEnd="@+id/css_content_01" />
                 <Button
                     android:layout_width="80dp"
                     android:layout_height="30dp"
-                    android:id="@+id/html_content_03"
+                    android:id="@+id/css_content_01"
+                    android:background="@drawable/explore_blue"
                     android:layout_alignParentBottom="true"
-                    android:layout_alignRight="@+id/html_title_03"
-                    android:layout_alignEnd="@+id/html_title_03"
-                    android:background="@drawable/explore_orange"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
                     android:layout_marginRight="17dp"
                     android:layout_marginEnd="17dp"
                     android:layout_marginBottom="15dp" />
@@ -81,15 +81,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/css_title_name1_content"
-                    android:id="@+id/html_3"
-                    android:layout_below="@+id/html_title_03"
-                    android:layout_alignRight="@+id/html_content_03"
-                    android:layout_alignEnd="@+id/html_content_03"
+                    android:id="@+id/css_1"
+                    android:layout_below="@+id/css_title_01"
+                    android:layout_alignRight="@+id/css_content_01"
+                    android:layout_alignEnd="@+id/css_content_01"
                     android:layout_marginRight="31dp"
                     android:layout_marginEnd="31dp"
-                    android:layout_toRightOf="@+id/html_logo03"
-                    android:layout_toEndOf="@+id/html_logo03"
-                    android:textColor="#6b563e" />
+                    android:layout_toRightOf="@+id/css_logo01"
+                    android:layout_toEndOf="@+id/css_logo01"
+                    android:textColor="#475c84" />
 
             </RelativeLayout>
 

@@ -147,12 +147,18 @@
         For "Avengers" cell span in set to "2", but for "just a cell" span is set to "3", so merges all three columns.
     </string>
 
+    <string name="html_title_name4">All about images</string>
+    <string name="html_title_name4_content"> Wa want to use images in our fancy website, so
+    here is explained how to insert them, make images clickable and describe content. </string>
+
+
     <string name="title_activity_html_01">html_01</string>
     <string name="title_activity_html_02">html_02</string>
     <string name="title_activity_html_03">html_03</string>
 
     <string name="css_title_name1"> Link your Style </string>
-    <string name="css_title_name1_content"> Here is shown how to add link .css file to the html file to styles will be applied. \n
-    Ctyling can be done for whole website or for different pages separately.</string>
+    <string name="css_title_name1_content"> Here is shown how to link .css file to the html file to styles will be applied. \n
+    Styling can be done for the whole website or for different pages separately.</string>
+    <string name="title_activity_html_04">html_04</string>
 
 </resources>

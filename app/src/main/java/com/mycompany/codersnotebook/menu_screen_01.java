@@ -39,6 +39,15 @@ public class menu_screen_01 extends Activity {
                 startActivityForResult(intent, 0);
             }
         });
+
+        Button html_content_04 = (Button) findViewById(R.id.html_content_04);
+        html_content_04.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), html_04.class);
+                startActivityForResult(intent, 0);
+            }
+        });
     }
 
 }
