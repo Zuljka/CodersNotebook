@@ -315,6 +315,61 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:id="@+id/linearLayout5">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/html_logo05"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="false"
+                    android:padding="5dp"
+                    android:src="@drawable/html_logo_05"
+                    android:cropToPadding="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/html_title_name5"
+                    android:id="@+id/html_title_05"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/html_logo05"
+                    android:textColor="#5b816b"
+                    android:background="#f6b670"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/html_content_05"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/html_title_05"
+                    android:layout_alignEnd="@+id/html_title_05"
+                    android:background="@drawable/explore_orange"
+                    android:layout_marginRight="17dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_marginBottom="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/html_title_name5_content"
+                    android:id="@+id/html_5"
+                    android:layout_below="@+id/html_title_05"
+                    android:layout_alignRight="@+id/html_content_05"
+                    android:layout_alignEnd="@+id/html_content_05"
+                    android:layout_marginRight="31dp"
+                    android:layout_marginEnd="31dp"
+                    android:layout_toRightOf="@+id/html_logo05"
+                    android:layout_toEndOf="@+id/html_logo05"
+                    android:textColor="#6b563e" />
+
+            </RelativeLayout>
         </LinearLayout>
 
     </RelativeLayout>
