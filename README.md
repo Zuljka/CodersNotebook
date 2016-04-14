@@ -21,3 +21,4 @@ TODO:
     color ( transparency in CSS)
     lines (horizontal, vertical)
     paragraphs and other page structure content
+- find better sound for button click
