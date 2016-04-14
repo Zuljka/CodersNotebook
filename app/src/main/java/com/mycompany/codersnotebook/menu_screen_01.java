@@ -1,6 +1,7 @@
 package com.mycompany.codersnotebook;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.View;
@@ -17,6 +18,8 @@ public class menu_screen_01 extends Activity {
         html_content_01.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(getApplicationContext(), R.raw.button_click);
+                mp.start();
                 Intent intent = new Intent(v.getContext(), html_01.class);
                 startActivityForResult(intent, 0);
             }

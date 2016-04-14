@@ -150,7 +150,29 @@
     <string name="html_title_name4">All about images</string>
     <string name="html_title_name4_content"> Wa want to use images in our fancy website, so
     here is explained how to insert them, make images clickable and describe content. </string>
+    <string name="html_04_tutor_01"> Any webpage would not look nice without images or gallery. \n
+    In this chapter I am trying to cover all basic options of adding images and make them clickable, so
+        image can be inserted to the page as a button.
+        To make your job easier, store images in the same folder where your index.html (first page) file is stored.
+        Then check the code below..
+    </string>
+    <string name="html_04_tutor_02"> <![CDATA[
+    <h2> Image example </h2> \n
+    <img src="image.jpg"> \n
+    ]]>
+    </string>
+    <string name="html_04_tutor_03">In this example there are no additional attributes added to the image. \n
+    Image is displayed in its original size, not clickable or does not display any other information.\n
+    Example below shows how to add extra information to the image.</string>
+    <string name="html_04_tutor_04"> To change size of a picture we need to add style parameter and corresponding attributes
+    like height and width</string>
+    <string name="html_04_tutor_05"> <![CDATA[
+    <h2> Image example </h2> \n
+    <img src= "image.jpg" \n alt="flower" \n
+	style= "width: 100px; \n height: 80px;\n">
+    ]]>
 
+    </string>
 
     <string name="title_activity_html_01">html_01</string>
     <string name="title_activity_html_02">html_02</string>
