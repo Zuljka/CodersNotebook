@@ -144,24 +144,90 @@
                     android:layout_height="wrap_content"
                     android:text="@string/html_04_tutor_05"
                     android:id="@+id/textView"
+                    android:layout_marginTop="25dp"
+                    android:background="#90a4ca"
                     android:layout_below="@+id/textView02"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginTop="10dp"
-                    android:background="#90a4ca"
-                    android:layout_alignParentBottom="true" />
+                    android:layout_alignParentStart="true" />
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/imageView5"
-                    android:src="@drawable/html_result_01"
+                    android:src="@drawable/html_result_08"
                     android:layout_alignTop="@+id/textView"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true" />
+                    android:layout_alignParentEnd="true"
+                    android:layout_toEndOf="@+id/textView"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/textView" />
             </RelativeLayout>
 
 
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="#b1f4cc"
+            android:layout_below="@+id/linearLayout3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/linearLayout4">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/html_04_tutor_06"
+                    android:id="@+id/textView13"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="false"
+                    android:layout_alignParentEnd="false"
+                    android:paddingTop="5dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView10"
+                    android:src="@drawable/system_screen_01"
+                    android:layout_below="@+id/textView13"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/html_04_tutor_07"
+                    android:id="@+id/textView14"
+                    android:background="#d9ffea"
+                    android:padding="2dp"
+                    android:layout_alignTop="@+id/imageView10"
+                    android:layout_alignRight="@+id/textView13"
+                    android:layout_alignEnd="@+id/textView13"
+                    android:layout_toRightOf="@+id/imageView10"
+                    android:layout_toEndOf="@+id/imageView10"
+                    android:layout_marginRight="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/html_04_tutor_08"
+                    android:id="@+id/textView15"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:background="#a2e5bd"
+                    android:layout_below="@+id/textView14"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
         </LinearLayout>
 
     </RelativeLayout>

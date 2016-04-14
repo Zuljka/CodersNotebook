@@ -165,13 +165,23 @@
     Image is displayed in its original size, not clickable or does not display any other information.\n
     Example below shows how to add extra information to the image.</string>
     <string name="html_04_tutor_04"> To change size of a picture we need to add style parameter and corresponding attributes
-    like height and width</string>
+    like height and width. Please note that font has the same size, but looks bigger because picture now smaller.\n
+    alt is used to add a description for a picture.</string>
     <string name="html_04_tutor_05"> <![CDATA[
     <h2> Image example </h2> \n
     <img src= "image.jpg" \n alt="flower" \n
-	style= "width: 100px; \n height: 80px;\n">
+	style= "width: 100px; \n height: 80px;">\n
     ]]>
-
+    </string>
+    <string name="html_04_tutor_06"> What if our website have many pictures or picture gallery
+    and storing all picture together with .html files will make it difficult to use later?
+    There is a solution, of course, simply put folder name as a path to the picture followed by file name.</string>
+    <string name="html_04_tutor_07"> Here you can see that in the folder with index.html file is another folder called
+    Pictures with the picture file there. So path for insertion picture in that case will be </string>
+    <string name="html_04_tutor_08">
+        <![CDATA[
+        <img src="pictures/image.jpg">
+        ]]>
     </string>
 
     <string name="title_activity_html_01">html_01</string>
