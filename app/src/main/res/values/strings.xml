@@ -233,6 +233,16 @@
     <string name="html_title_name5"> Links </string>
     <string name="html_title_name5_content"> Website is not a website without links. Otherwise it is just a page.\n
     Explore to see how to add links and convert any pictures onto a button.</string>
+    <string name="html_05_tutor_01"> Links are used to provide access to another internet resourses like pages, pictures,
+    files and other. Links are also used to create a navigation menu of one website. \n
+    Text or picture can be a link. Here are examples. \n
+    </string>
+    <string name="html_05_tutor_02"> <![CDATA[
+    <a> </a>
+    ]]> tag is used to create a hyperlink.
+    </string>
+
+
 
     <string name="title_activity_html_01">html_01</string>
     <string name="title_activity_html_02">html_02</string>
@@ -242,5 +252,6 @@
     <string name="css_title_name1_content"> Here is shown how to link .css file to the html file to styles will be applied. \n
     Styling can be done for the whole website or for different pages separately.</string>
     <string name="title_activity_html_04">html_04</string>
+    <string name="title_activity_html_05">html_05</string>
 
 </resources>

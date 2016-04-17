@@ -338,7 +338,7 @@
                     android:id="@+id/html_title_05"
                     android:layout_alignParentTop="true"
                     android:layout_toRightOf="@+id/html_logo05"
-                    android:textColor="#5b816b"
+                    android:textColor="#9a7d5c"
                     android:background="#f6b670"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true" />
