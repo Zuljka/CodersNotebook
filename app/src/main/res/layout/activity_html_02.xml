@@ -246,7 +246,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="wrap_content"
                 android:padding="10dp">
 
 
@@ -278,6 +278,30 @@
                     android:layout_below="@+id/textView22"
                     android:layout_centerHorizontal="true"
                     android:src="@drawable/html_result_11" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/html_02_tutor_10"
+                    android:id="@+id/textView23"
+                    android:layout_below="@+id/imageView13"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:background="#efb69a"
+                    android:padding="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toLeftOf="@+id/imageView14"
+                    android:layout_toStartOf="@+id/imageView14" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView14"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/html_result_12"
+                    android:layout_alignTop="@+id/textView23" />
             </RelativeLayout>
         </LinearLayout>
 

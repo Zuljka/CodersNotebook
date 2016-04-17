@@ -98,6 +98,12 @@
     <font size="6" face="Rockwell" color="blue"> Rockwell font </font> <br>
     ]]>
     </string>
+    <string name="html_02_tutor_10"> <![CDATA[
+    <b> bold text </b> <br> \n
+    <font size="5"> <u> underlined text </u> </font> <br> \n
+    <font size="3"> <i> italic text  </i> </font> <br>
+    ]]></string>
+
 
     <string name="logo3">html_logo_3</string>
     <string name="html_title_name3">Tables</string>
