@@ -91,6 +91,13 @@
     </string>
     <string name="html_02_tutor_07"> In other words, any font you see in Word or another text editor can be used
      on your page in font face.</string>
+    <string name="html_02_tutor_08"> You can highlight separate words by color or type (bold, italic, underlined).
+    Please note that links are underlined by default. </string>
+    <string name="html_02_tutor_09"> <![CDATA[
+    <font face="Skia" size="6" color="#ff0000"> Skia font </font> <br> \n
+    <font size="6" face="Rockwell" color="blue"> Rockwell font </font> <br>
+    ]]>
+    </string>
 
     <string name="logo3">html_logo_3</string>
     <string name="html_title_name3">Tables</string>
