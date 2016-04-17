@@ -234,7 +234,7 @@
     <string name="html_title_name5_content"> Website is not a website without links. Otherwise it is just a page.\n
     Explore to see how to add links and convert any pictures onto a button.</string>
     <string name="html_05_tutor_01"> Links are used to provide access to another internet resourses like pages, pictures,
-    files and other. Links are also used to create a navigation menu of one website. \n
+    files and other. Links are also used to create a navigation menu of the website. \n
     Text or picture can be a link. Here are examples. \n
     </string>
     <string name="html_05_tutor_02"> <![CDATA[
@@ -242,6 +242,23 @@
     ]]> tag is used to create a hyperlink.
     </string>
 
+    <string name="html_05_tutor_03">  <![CDATA[
+    <a href="http://www.websitename"> Click me </a>
+    ]]>
+    </string>
+    <string name="html_05_tutor_04"> <![CDATA[
+    <p> Just text \n
+    <a href="http://www.websitename"> Click me </a> \n
+     and text again \n
+    </p>
+    ]]> </string>
+    <string name="html_05_tutor_05"> Link can refer to the file (picture in our example) to open it in new window
+    </string>
+    <string name="html_05_tutor_06"> <![CDATA[
+        <a href="pictures/image.jpg"> click to see picture </a>
+    ]]>
+
+    </string>
 
 
     <string name="title_activity_html_01">html_01</string>

@@ -40,7 +40,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="wrap_content"
                 android:padding="20dp">
 
 
@@ -80,9 +80,48 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                android:padding="5dp">
+                android:padding="20dp">
 
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/html_05_tutor_03"
+                    android:id="@+id/textView25"
+                    android:padding="2dp"
+                    android:background="#e5acb8"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView15"
+                    android:src="@drawable/html_result_13"
+                    android:layout_below="@+id/textView25"
+                    android:layout_alignRight="@+id/textView25"
+                    android:layout_alignEnd="@+id/textView25" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/html_05_tutor_04"
+                    android:id="@+id/textView26"
+                    android:layout_below="@+id/imageView15"
+                    android:layout_alignLeft="@+id/textView25"
+                    android:layout_alignStart="@+id/textView25"
+                    android:background="#e5acb8"
+                    android:padding="2dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView16"
+                    android:layout_below="@+id/textView26"
+                    android:layout_alignRight="@+id/imageView15"
+                    android:layout_alignEnd="@+id/imageView15"
+                    android:src="@drawable/html_result_14" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -102,6 +141,16 @@
                 android:layout_height="200dp"
                 android:padding="20dp">
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/html_05_tutor_06"
+                    android:id="@+id/textView27"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:background="#eb9898"
+                    android:padding="2dp"/>
             </RelativeLayout>
 
 
