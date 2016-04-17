@@ -177,7 +177,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:padding="20dp">
 
                 <TextView
@@ -223,9 +223,9 @@
                     android:padding="10dp"
                     android:textStyle="bold"
                     android:background="#a2e5bd"
-                    android:layout_below="@+id/textView14"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/textView14"
+                    android:layout_alignEnd="@+id/textView14" />
 
             </RelativeLayout>
         </LinearLayout>

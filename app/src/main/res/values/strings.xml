@@ -35,15 +35,16 @@
 
 
     <string name="logo2">html_logo_2</string>
-    <string name="html_title_name2">Font size</string>
+    <string name="html_title_name2">Fonts</string>
     <string name="html_title_name2_content2">Explanation of font sizes \n
         Make your text smaller, bigger, just as you like it.\n
-        Also provided some examples fo changing font faces, so you will be able to make your page look more beautiful
+        Also provided some examples for changing font faces, so you will be able to make your page look more beautiful
     </string>
     <string name="html_02_tutor_01">
-        In HTML font size is available in 6 different variations. To hange the size of the text simply wrap text into
-        corresponding tags. All tags are listed below ... \n
+       In HTML font is separated into different groups. One group is for displaying headings and another to display content.
+        But you can use any font as you like. \n
         Please note that all content goest into BODY part of a page. In the future only code from body part will be displayed.
+        Here is a sample of header font. It has 6 sizes and it is bold by default.
     </string>
 
     <string name="html_02_tutor_02"><![CDATA[
@@ -57,6 +58,23 @@
     <h6> Size 6 </h6> \n
     </body> \n
     ]]>
+    </string>
+    <string name="html_02_tutor_03">To display content and align text on a page paragraphs are used.
+    When paragraph tag is used browser will create additional space before and after text and next paragraph will aotomatically start
+        on new line.
+    \n
+    Tags can contain another tags inside for example, if you want to make text bigger, change a color of a certain word
+    or insert a hyperlink.</string>
+    <string name="html_02_tutor_04"><![CDATA[
+        <p> <font size="1"> font size 1</font> </p> \n
+        <p> <font size="2"> font size 2</font> </p> \n
+        <p> <font size="6"> font size 6 </font> </p> \n
+        <p> <font size="3"> font size 3</font> </p> \n
+        <p> <font size="7"> font size 7 </font> </p> \n
+        <p> <font size="4"> font size 4 </font> </p> \n
+        <p> <font size="5"> font size 5 </font> </p> \n
+
+        ]]>
     </string>
 
     <string name="logo3">html_logo_3</string>
