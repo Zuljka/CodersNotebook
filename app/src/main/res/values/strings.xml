@@ -76,6 +76,21 @@
 
         ]]>
     </string>
+    <string name="html_02_tutor_05"> <![CDATA[
+    <font face="Cracked" size="4"> Cracked font</font> <br> \n
+    <font face="ArCSI"> ArCSI font </font> <br> \n
+    <font face="Rockwell"> Rockwell font </font> <br> \n
+    <font face="Comic sans MS"> Comic sans MS font </font> <br> \n
+    <font face= "Verdana"> Verdana font </font> <br> \n
+    <font face="Skia"> Skia font </font> <br> \n
+
+    ]]>
+    </string>
+    <string name="html_02_tutor_06"> Here br tag is used to break the line and start next element on the next line. \n
+        In one of the next chapter you will see other tags for page layout.
+    </string>
+    <string name="html_02_tutor_07"> In other words, any font you see in Word or another text editor can be used
+     on your page in font face.</string>
 
     <string name="logo3">html_logo_3</string>
     <string name="html_title_name3">Tables</string>

@@ -172,7 +172,7 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="wrap_content"
             android:background="#e3e798"
             android:layout_below="@+id/linearLayout4"
             android:layout_alignParentLeft="true"
@@ -189,12 +189,13 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/html_02_tutor_04"
+                    android:text="@string/html_02_tutor_05"
                     android:id="@+id/textView18"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:background="#e1a98e" />
+                    android:background="#d4d978"
+                    android:padding="2dp" />
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -203,7 +204,32 @@
                     android:layout_below="@+id/textView18"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:src="@drawable/html_result_09" />
+                    android:src="@drawable/html_result_10" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/html_02_tutor_06"
+                    android:id="@+id/textView19"
+                    android:textSize="10sp"
+                    android:background="#d4d978"
+                    android:padding="2dp"
+                    android:layout_alignTop="@+id/imageView12"
+                    android:layout_toLeftOf="@+id/imageView12"
+                    android:layout_toStartOf="@+id/imageView12"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/html_02_tutor_07"
+                    android:id="@+id/textView20"
+                    android:textSize="10sp"
+                    android:background="#bed978"
+                    android:padding="2dp"
+                    android:layout_alignBottom="@+id/imageView12"
+                    android:layout_toLeftOf="@+id/imageView12"
+                    android:layout_toStartOf="@+id/imageView12" />
             </RelativeLayout>
         </LinearLayout>
 
