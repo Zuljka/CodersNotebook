@@ -146,7 +146,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="wrap_content"
                 android:padding="20dp">
 
                 <TextView
@@ -180,15 +180,101 @@
                     android:layout_below="@+id/textView27"
                     android:layout_centerHorizontal="true" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/html_06_tutor_07"
+                    android:id="@+id/textView37"
+                    android:background="#ce9b6e"
+                    android:padding="2dp"
+                    android:layout_below="@+id/imageView18"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/html_06_tutor_08"
+                    android:id="@+id/textView38"
+                    android:padding="2dp"
+                    android:background="#ce9b6e"
+                    android:layout_below="@+id/textView37"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_toStartOf="@+id/imageView18"
+                    android:layout_marginTop="5dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView19"
+                    android:src="@drawable/html_result_19"
+                    android:layout_alignTop="@+id/textView38"
+                    android:layout_toRightOf="@+id/textView38"
+                    android:layout_toEndOf="@+id/textView38"
+                    android:layout_marginLeft="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/html_06_tutor_09"
+                    android:id="@+id/textView39"
+                    android:padding="2dp"
+                    android:background="#e2bfa1"
+                    android:textSize="10sp"
+                    android:layout_alignTop="@+id/imageView19"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toRightOf="@+id/imageView19"
+                    android:layout_toEndOf="@+id/imageView19"
+                    android:layout_marginLeft="5dp" />
+
             </RelativeLayout>
 
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/html_06_tutor_name"
+            android:background="#ee9e47"
+            android:layout_below="@+id/linearLayout3"
+            android:gravity="center"
+            android:textColor="#fefcfc"
+            android:textStyle="bold"
+            android:id="@+id/subtitle">
+        </TextView>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f9d5b7"
+            android:layout_below="@+id/subtitle"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/linearLayout4">
 
 
 
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:padding="20dp">
 
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/textView40"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
 
         </LinearLayout>
-
 
     </RelativeLayout>
 

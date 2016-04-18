@@ -281,7 +281,7 @@
 
     <string name="html_title_name6"> Other useful tags </string>
     <string name="html_title_name6_content"> Here I tried to put together other tags that will help to make page look better
-        using separators, lines and other things. </string>
+        using separators, lines and other things like special characters. </string>
     <string name="html_06_tutor_01"> Most pages use other elements there to separate content, add lines etc. \n
     Here is a list of these elements to help to make page look better. These tags can be inserted into text, around words,
         after paragraphs. Just anywhere where you feel like adding it.</string>
@@ -302,6 +302,19 @@
 
         word 1 <![CDATA[ <hr> ]]> word 2
     </string>
+    <string name="html_06_tutor_07"> Next question you will have is how to add vertical line. \n
+    There is no tag for doing that, but we can always modify our parameters for horizontal line to make it vertical.\n
+    To do that we add extra styling parameters to our tag ... </string>
+    <string name="html_06_tutor_08">
+        <![CDATA[
+              <hr style="width:0.5px; height:50px; position: absolute; left: 35px;"/>
+        ]]>
+    </string>
+    <string name="html_06_tutor_09">
+    Here we added some parameters for line width and height. \n
+    We alo positioned our line absolutely relatively to the left edge of the screen. \n
+    Try to change it to right and see what will happen.</string>
+    <string name="html_06_tutor_name">Special symbols</string>
 
 
     <string name="title_activity_html_01">html_01</string>
