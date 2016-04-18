@@ -315,6 +315,32 @@
     We alo positioned our line absolutely relatively to the left edge of the screen. \n
     Try to change it to right and see what will happen.</string>
     <string name="html_06_tutor_name">Special symbols</string>
+    <string name="html_06_tutor_10"> Sometimes we need to add some extra space between the words
+        or special symbol. By defaul html will show only one space regardless how many are there in the code.
+    But there is a way to add more by using \n
+    <![CDATA[&nbsp]]>. \n
+        If you want to see 10 spaces, add  <![CDATA[&nbsp]]> 10 times( actually 9, as one space will be shown if exists in the code).\n
+        Other symbols:
+    </string>
+    <string name="html_06_tutor_11">
+    <![CDATA[ \n
+    &lt - less than \n
+    &gt - greater than \n
+    &amp - ampersand \n
+    &cent - cent \n
+    &pound - pound \n
+    &yen - yen \n
+    &euro - euro \n
+    &copy - copyright \n
+    &reg - registered trademark \n
+    &trade - trademark \n
+    &larr - arrow left  \n
+    &rarr - arrow right  \n
+    &uarr - arrow up \n
+    &darr - arrow down \n
+
+    ]]>
+    </string>
 
 
     <string name="title_activity_html_01">html_01</string>
