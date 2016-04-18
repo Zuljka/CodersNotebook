@@ -49,7 +49,10 @@
             android:label="@string/title_activity_html_04" />
         <activity
             android:name=".html_05"
-            android:label="@string/title_activity_html_05"></activity>
+            android:label="@string/title_activity_html_05" />
+        <activity
+            android:name=".html_06"
+            android:label="@string/title_activity_html_06"></activity>
     </application>
 
 </manifest>

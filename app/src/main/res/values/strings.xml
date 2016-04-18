@@ -241,7 +241,6 @@
     <a> </a>
     ]]> tag is used to create a hyperlink.
     </string>
-
     <string name="html_05_tutor_03">  <![CDATA[
     <a href="http://www.websitename"> Click me </a>
     ]]>
@@ -259,6 +258,41 @@
     ]]>
 
     </string>
+    <string name="html_05_tutor_07"> Link will look like text, similar to the previous example, but text ill be different.\n
+        But after clicking on that link picture from your local directory will be opened. >>>
+    </string>
+    <string name="html_05_tutor_08"> <![CDATA[
+    <a href="http://www.websitename"> \n
+    <img src="pictures/image.jpg"> \n
+    </a>
+    ]]> </string>
+    <string name="html_05_tutor_09"> Picture can be modified and resized by adding parameters for size </string>
+    <string name="html_05_tutor_10"> So now picture is clickable and will open any website or page it is refferenced to. 
+    To link picture to another page on the same website use code below
+    </string>
+    <string name="html_05_tutor_11"> <![CDATA[
+    <a href="index.html"> \n
+    <img src="pictures/image.jpg"> \n
+    </a>
+    ]]> </string>
+    <string name="html_05_tutor_12"> In this example simply add page you want user to go within the same website into
+    <![CDATA[ <a>]]> tag after href=
+    </string>
+
+    <string name="html_title_name6"> Other useful tags </string>
+    <string name="html_title_name6_content"> Here I tried to put together other tags that will help to make page look better
+        using separators, lines and other things. </string>
+    <string name="html_06_tutor_01"> Most pages use other elements there to separate content, add lines etc. \n
+    Here is a list of these elements to help to make page look better. These tags can be inserted into text, around words,
+        after paragraphs. Just anywhere where you feel like adding it.</string>
+    <string name="html_06_tutor_02"> <![CDATA[ <br>  ]]> tag is used to insert a horizontal break between two elements.
+    If you want ot have a bigger break simply put few <![CDATA[ <br> ]]> one after another. \n
+    For example
+    <![CDATA[  <br> <br> <br>]]> \n
+    or \n
+    <![CDATA[ <br> \n <br> \n <br>]]></string>
+    <string name="html_06_tutor_03"> one break here </string>
+    <string name="html_06_tutor_04"> three breaks here </string>
 
 
     <string name="title_activity_html_01">html_01</string>
@@ -270,5 +304,6 @@
     Styling can be done for the whole website or for different pages separately.</string>
     <string name="title_activity_html_04">html_04</string>
     <string name="title_activity_html_05">html_05</string>
+    <string name="title_activity_html_06">html_06</string>
 
 </resources>
