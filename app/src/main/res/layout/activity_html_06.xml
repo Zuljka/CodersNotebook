@@ -146,102 +146,40 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="300dp"
                 android:padding="20dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/html_05_tutor_06"
+                    android:text="@string/html_06_tutor_05"
                     android:id="@+id/textView27"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:background="#eb9898"
+                    android:background="#ce9b6e"
                     android:padding="2dp"/>
 
                 <TextView
-                    android:layout_width="200dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/html_05_tutor_07"
-                    android:id="@+id/textView28"
-                    android:textSize="10sp"
+                    android:text="@string/html_06_tutor_06"
+                    android:id="@+id/textView36"
                     android:layout_below="@+id/textView27"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:padding="2dp"
-                    android:layout_marginTop="5dp"
-                    android:background="#e7bfbf" />
+                    android:background="#ce9b6e"
+                    android:layout_marginTop="5dp" />
 
                 <ImageView
-                    android:layout_width="200dp"
-                    android:layout_height="100dp"
-                    android:id="@+id/imageView17"
-                    android:layout_alignTop="@+id/textView28"
-                    android:layout_alignRight="@+id/textView27"
-                    android:layout_alignEnd="@+id/textView27"
-                    android:src="@drawable/html_result_15"
-                    android:layout_toEndOf="@+id/textView28"
-                    android:layout_toRightOf="@+id/textView28" />
-
-                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/html_05_tutor_08"
-                    android:id="@+id/textView29"
-                    android:padding="2dp"
-                    android:background="#eb9898"
-                    android:layout_below="@+id/imageView17"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginTop="20dp" />
+                    android:id="@+id/imageView18"
+                    android:src="@drawable/html_result_18"
+                    android:layout_below="@+id/textView27"
+                    android:layout_centerHorizontal="true" />
 
-                <TextView
-                    android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:text="@string/html_05_tutor_09"
-                    android:id="@+id/textView30"
-                    android:textSize="10sp"
-                    android:padding="2dp"
-                    android:background="#e7bfbf"
-                    android:layout_alignTop="@+id/textView29"
-                    android:layout_alignRight="@+id/imageView17"
-                    android:layout_alignEnd="@+id/imageView17"
-                    android:layout_toRightOf="@+id/textView29"
-                    android:layout_toEndOf="@+id/textView29" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/html_05_tutor_10"
-                    android:id="@+id/textView31"
-                    android:layout_below="@+id/textView29"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginTop="10dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/html_05_tutor_11"
-                    android:id="@+id/textView32"
-                    android:layout_below="@+id/textView31"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:padding="2dp"
-                    android:background="#eb9898" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/html_05_tutor_12"
-                    android:id="@+id/textView33"
-                    android:textSize="10sp"
-                    android:layout_alignTop="@+id/textView32"
-                    android:layout_alignLeft="@+id/imageView17"
-                    android:layout_alignStart="@+id/imageView17"
-                    android:background="#e7bfbf"
-                    android:padding="2dp" />
             </RelativeLayout>
 
 

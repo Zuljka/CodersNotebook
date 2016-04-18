@@ -293,6 +293,15 @@
     <![CDATA[ <br> \n <br> \n <br>]]></string>
     <string name="html_06_tutor_03"> one break here </string>
     <string name="html_06_tutor_04"> three breaks here </string>
+    <string name="html_06_tutor_05"> Lines can also be used as seperators of content.\n
+    Horizontal line is added with <![CDATA[ <hr> ]]> tag. \n
+        By adding tag between two elemnts, next element will apper on the next line after the horizontal line. \n
+        By default line takes whole page length.
+    </string>
+    <string name="html_06_tutor_06">
+
+        word 1 <![CDATA[ <hr> ]]> word 2
+    </string>
 
 
     <string name="title_activity_html_01">html_01</string>
