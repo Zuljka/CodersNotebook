@@ -52,7 +52,11 @@
             android:label="@string/title_activity_html_05" />
         <activity
             android:name=".html_06"
-            android:label="@string/title_activity_html_06"></activity>
+            android:label="@string/title_activity_html_06" />
+        <activity
+            android:name=".more_info"
+            android:label="@string/title_activity_more_info"
+            android:theme="@style/AppTheme.CustomTheme"></activity>
     </application>
 
 </manifest>
