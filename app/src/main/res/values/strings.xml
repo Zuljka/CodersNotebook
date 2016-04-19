@@ -8,6 +8,15 @@
     <string name="css_title">CSS hints</string>
     <string name="logo">picture</string>
 
+    <string name="information"> Information </string>
+    <string name="about_project_title01">About project</string>
+    <string name="about_project_title02"> Author(s) </string>
+    <string name="about_project_01"> Application is made as a part of college individual project. \n
+    The main idea of this project is to put together as much information as possible to help beginner developers.
+    Application does not require internet access, so information is always in your pocket.</string>
+    <string name="about_project_02"> \n Maria Kazydub \n
+    email: mariakazydub@gmail.com \n</string>
+
     <string name="explore">EXPLORE</string>
 
     <string name="logo1">html_logo_1</string>

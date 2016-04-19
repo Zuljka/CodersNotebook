@@ -8,14 +8,68 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.mycompany.codersnotebook.more_info"
-    android:background="#f77c7c">
+    android:background="#e47f37">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/information"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:id="@+id/textView42"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:background="#b2530b" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Text"
-        android:id="@+id/textView42"
-        android:layout_alignParentTop="true"
+        android:text="@string/about_project_title01"
+        android:id="@+id/textView43"
+        android:layout_below="@+id/textView42"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_project_01"
+        android:textSize="20sp"
+        android:id="@+id/textView44"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textView43"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="85dp" />
+        android:background="#d26817"
+        android:layout_margin="2dp"
+        android:padding="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_project_title02"
+        android:id="@+id/textView45"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView44"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_project_02"
+        android:textSize="20sp"
+        android:id="@+id/textView46"
+        android:textColor="#ffffff"
+        android:background="#d26817"
+        android:padding="2dp"
+        android:layout_below="@+id/textView45"
+        android:layout_alignRight="@+id/textView44"
+        android:layout_alignEnd="@+id/textView44"
+        android:layout_alignLeft="@+id/textView44"
+        android:layout_alignStart="@+id/textView44" />
 </RelativeLayout>
