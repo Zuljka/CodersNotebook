@@ -322,24 +322,26 @@
         If you want to see 10 spaces, add  <![CDATA[&nbsp]]> 10 times( actually 9, as one space will be shown if exists in the code).\n
         Other symbols:
     </string>
-    <string name="html_06_tutor_11">
-    <![CDATA[ \n
-    &lt - less than \n
-    &gt - greater than \n
-    &amp - ampersand \n
-    &cent - cent \n
-    &pound - pound \n
-    &yen - yen \n
-    &euro - euro \n
-    &copy - copyright \n
-    &reg - registered trademark \n
-    &trade - trademark \n
-    &larr - arrow left  \n
-    &rarr - arrow right  \n
-    &uarr - arrow up \n
-    &darr - arrow down \n
+    <string name="html_06_tutor_11">\n
+    <![CDATA[ &lt]]> ; - less than \n
+    <![CDATA[ &gt]]> ; - greater than \n
+    <![CDATA[ &amp]]> ; - ampersand \n
+    <![CDATA[ &cent]]> ; - cent \n
+    <![CDATA[ &pound]]> ; - pound \n
+    <![CDATA[ &yen]]> ; - yen \n
+    <![CDATA[ &euro]]> ; - euro \n
+    <![CDATA[ &copy]]> ; - copyright \n
+    <![CDATA[ &reg]]> ; - registered trademark \n
+    <![CDATA[ &trade]]> ; - trademark \n
+    <![CDATA[ &larr]]> ; - arrow left  \n
+    <![CDATA[ &rarr]]> ; - arrow right  \n
+    <![CDATA[ &uarr]]> ; - arrow up \n
+    <![CDATA[ &darr]]> ; - arrow down \n
+    <![CDATA[ &spades]]> ; - black spades \n
+    <![CDATA[ &clubs]]> ; - black clubs \n
+    <![CDATA[ &hearts]]> ; - black hearts \n
+    <![CDATA[ &diams]]> ; - black diamonds \n
 
-    ]]>
     </string>
 
 

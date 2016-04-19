@@ -279,8 +279,19 @@
                     android:text="@string/html_06_tutor_11"
                     android:id="@+id/textView41"
                     android:layout_below="@+id/textView40"
+                    android:layout_toRightOf="@+id/imageView20"
+                    android:layout_toEndOf="@+id/imageView20" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:id="@+id/imageView20"
+                    android:src="@drawable/html_result_20"
+                    android:layout_below="@+id/textView40"
                     android:layout_alignLeft="@+id/textView40"
-                    android:layout_alignStart="@+id/textView40" />
+                    android:layout_alignStart="@+id/textView40"
+                    android:paddingTop="0dp"
+                    android:layout_marginTop="15dp" />
             </RelativeLayout>
 
         </LinearLayout>
