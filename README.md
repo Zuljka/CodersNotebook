@@ -19,8 +19,7 @@ I think application has it's right to exist and I will continue to work on impro
 
 
 
-TODO: 
+#TODOs: 
 - add: 
      - lists
-     - color ( transparency in CSS)
 - find better sound for button click
