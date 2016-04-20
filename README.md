@@ -17,9 +17,5 @@ I think application has it's right to exist and I will continue to work on impro
 
 
 
-
-
-#TODOs: 
-- add: 
-     - lists
-- find better sound for button click
+#Video
+https://youtu.be/DTY_rtdH_f8
