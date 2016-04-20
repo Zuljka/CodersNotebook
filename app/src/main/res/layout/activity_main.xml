@@ -18,15 +18,6 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="150dp"
-        android:layout_height="60dp"
-        android:id="@+id/CSS"
-        android:background="@drawable/css_button"
-        android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/HTML"
-        android:layout_alignStart="@+id/HTML" />
-
-    <Button
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:alpha="0.60"

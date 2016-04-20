@@ -353,6 +353,14 @@
 
     </string>
 
+    <string name="html_title_name7"> Div(s)</string>
+    <string name="html_title_name7_content"> Better way to alight elements on your page by using div tags.
+    Wrap anything and put it anywhere on your page.</string>
+    <string name="html_07_tutor_01"> Div tags are used to place elements on the positions you want them to be.\n
+    They can be used to create page layout as well as tables. Div elements can contain another div elements or other
+    elemtns, like paragraphs ( <![CDATA[ <p> </p> ]]> ) text fields, pictures and other. </string>
+    <string name="html_07_tutor_02"> If there are many div elements in your program, would be useful to separate them somehow.
+    To do that we can give them names</string>
 
     <string name="title_activity_html_01">html_01</string>
     <string name="title_activity_html_02">html_02</string>
@@ -365,5 +373,6 @@
     <string name="title_activity_html_05">html_05</string>
     <string name="title_activity_html_06">html_06</string>
     <string name="title_activity_more_info">more_info</string>
+    <string name="title_activity_html_07">html_07</string>
 
 </resources>

@@ -465,7 +465,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/html_title_name5"
+                    android:text="@string/html_title_name7"
                     android:id="@+id/html_title_07"
                     android:layout_alignParentTop="true"
                     android:layout_toRightOf="@+id/html_logo07"
@@ -489,7 +489,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/html_title_name5_content"
+                    android:text="@string/html_title_name7_content"
                     android:id="@+id/html_7"
                     android:layout_below="@+id/html_title_07"
                     android:layout_alignRight="@+id/html_content_07"

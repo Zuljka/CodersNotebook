@@ -56,7 +56,10 @@
         <activity
             android:name=".more_info"
             android:label="@string/title_activity_more_info"
-            android:theme="@style/AppTheme.CustomTheme"></activity>
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".html_07"
+            android:label="@string/title_activity_html_07"></activity>
     </application>
 
 </manifest>
