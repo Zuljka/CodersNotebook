@@ -26,14 +26,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button CSS = (Button) findViewById(R.id.CSS);
-        CSS.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), CSS.class);
-                startActivityForResult(intent, 0);
-            }
-        });
 
         Button more_info = (Button) findViewById(R.id.more_info);
         more_info.setOnClickListener(new View.OnClickListener() {

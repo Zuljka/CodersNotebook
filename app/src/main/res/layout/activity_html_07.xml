@@ -62,7 +62,7 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#daa87d"
+            android:background="#86b46e"
             android:layout_below="@+id/linearLayout"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
@@ -81,7 +81,7 @@
                     android:text="@string/html_07_tutor_02"
                     android:id="@+id/textView25"
                     android:padding="2dp"
-                    android:background="#ce9b6e"
+                    android:background="#7cac63"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true" />
@@ -90,156 +90,58 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/imageView15"
-                    android:src="@drawable/html_result_16"
+                    android:src="@drawable/html_result_21"
                     android:layout_below="@+id/textView25"
+                    android:layout_marginTop="10dp"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true" />
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/imageView16"
-                    android:src="@drawable/html_result_17"
-                    android:layout_below="@+id/textView25"
-                    android:layout_alignRight="@+id/textView25"
-                    android:layout_alignEnd="@+id/textView25" />
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/html_06_tutor_03"
+                    android:text="@string/html_07_tutor_03"
                     android:id="@+id/textView34"
-                    android:textSize="10sp"
                     android:padding="2dp"
-                    android:background="#ce9b6e"
-                    android:layout_alignTop="@+id/textView35"
+                    android:background="#7cac63"
                     android:layout_toRightOf="@+id/imageView15"
                     android:layout_toEndOf="@+id/imageView15"
-                    android:layout_marginLeft="5dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/html_06_tutor_04"
-                    android:id="@+id/textView35"
-                    android:textSize="10sp"
-                    android:padding="2dp"
-                    android:background="#ce9b6e"
-                    android:layout_alignTop="@+id/imageView16"
-                    android:layout_toLeftOf="@+id/imageView16"
-                    android:layout_toStartOf="@+id/imageView16"
-                    android:layout_marginTop="15dp"
-                    android:layout_marginRight="5dp" />
-            </RelativeLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#f7c79f"
-            android:layout_below="@+id/linearLayout2"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:id="@+id/linearLayout3"
-            android:weightSum="1">
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="20dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/html_06_tutor_05"
-                    android:id="@+id/textView27"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:background="#ce9b6e"
-                    android:padding="2dp"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/html_06_tutor_06"
-                    android:id="@+id/textView36"
-                    android:layout_below="@+id/textView27"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:padding="2dp"
-                    android:background="#ce9b6e"
-                    android:layout_marginTop="5dp" />
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/textView25" />
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/imageView18"
-                    android:src="@drawable/html_result_18"
-                    android:layout_below="@+id/textView27"
-                    android:layout_centerHorizontal="true" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/html_06_tutor_07"
-                    android:id="@+id/textView37"
-                    android:background="#ce9b6e"
-                    android:padding="2dp"
-                    android:layout_below="@+id/imageView18"
+                    android:id="@+id/imageView22"
+                    android:layout_below="@+id/textView34"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:layout_marginTop="24dp" />
+                    android:layout_marginTop="31dp"
+                    android:src="@drawable/html_result_22" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/html_06_tutor_08"
-                    android:id="@+id/textView38"
+                    android:text="@string/html_07_tutor_04"
+                    android:id="@+id/textView47"
                     android:padding="2dp"
-                    android:background="#ce9b6e"
-                    android:layout_below="@+id/textView37"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_toStartOf="@+id/imageView18"
-                    android:layout_marginTop="5dp" />
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/imageView19"
-                    android:src="@drawable/html_result_19"
-                    android:layout_alignTop="@+id/textView38"
-                    android:layout_toRightOf="@+id/textView38"
-                    android:layout_toEndOf="@+id/textView38"
-                    android:layout_marginLeft="5dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/html_06_tutor_09"
-                    android:id="@+id/textView39"
-                    android:padding="2dp"
-                    android:background="#e2bfa1"
-                    android:textSize="10sp"
-                    android:layout_alignTop="@+id/imageView19"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_toRightOf="@+id/imageView19"
-                    android:layout_toEndOf="@+id/imageView19"
-                    android:layout_marginLeft="5dp" />
+                    android:background="#7cac63"
+                    android:layout_alignTop="@+id/imageView22"
+                    android:layout_toRightOf="@+id/imageView15"
+                    android:layout_toEndOf="@+id/imageView15" />
 
             </RelativeLayout>
-
         </LinearLayout>
+
+
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/html_06_tutor_name"
-            android:background="#ee9e47"
-            android:layout_below="@+id/linearLayout3"
+            android:text="@string/html_07_tutor_subtitle"
+            android:background="#289124"
+            android:layout_below="@+id/linearLayout2"
             android:gravity="center"
             android:textColor="#fefcfc"
             android:textStyle="bold"
@@ -250,7 +152,7 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#f9d5b7"
+            android:background="#b9d7b0"
             android:layout_below="@+id/subtitle"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
@@ -267,7 +169,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/html_06_tutor_10"
+                    android:text="@string/html_07_tutor_05"
                     android:id="@+id/textView40"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
@@ -276,23 +178,25 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/html_06_tutor_11"
-                    android:id="@+id/textView41"
+                    android:text="@string/html_07_tutor_06"
+                    android:id="@+id/textView48"
                     android:layout_below="@+id/textView40"
-                    android:layout_toRightOf="@+id/imageView20"
-                    android:layout_toEndOf="@+id/imageView20"
-                    android:background="#efc6a1" />
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:padding="2dp"
+                    android:background="#a6ca9c"
+                    android:layout_marginTop="5dp" />
 
                 <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="300dp"
-                    android:id="@+id/imageView20"
-                    android:src="@drawable/html_result_20"
-                    android:layout_below="@+id/textView40"
-                    android:layout_alignLeft="@+id/textView40"
-                    android:layout_alignStart="@+id/textView40"
-                    android:paddingTop="0dp"
-                    android:layout_marginTop="15dp" />
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView23"
+                    android:layout_below="@+id/textView48"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/html_result_23" />
+
+
+
             </RelativeLayout>
 
         </LinearLayout>

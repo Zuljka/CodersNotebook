@@ -360,7 +360,38 @@
     They can be used to create page layout as well as tables. Div elements can contain another div elements or other
     elemtns, like paragraphs ( <![CDATA[ <p> </p> ]]> ) text fields, pictures and other. </string>
     <string name="html_07_tutor_02"> If there are many div elements in your program, would be useful to separate them somehow.
-    To do that we can give them names</string>
+    To do that we add there additional parameters that can be id or class. \n
+    id is unique name for div element and same id name cannot occur more that once \n
+    class can occur many times. For example if later you want to set the same parameters for all elements with the same class,
+        they become useful. \nTo access id in CSS . operator is used. Eg. .songname\n
+    To access element by id # operator is used. Eg. #songauthor \n
+    By default, if no size parameters are set, div will take the lenght of the screen. </string>
+    <string name="html_07_tutor_03"> <![CDATA[
+    <div style="background: blue;"> text1 </div> \n
+    <div style="background:red"> text2</div>
+    ]]>
+    </string>
+    <string name="html_07_tutor_04"><![CDATA[
+        <div style="background: blue; width: 40px"> text1 </div> \n
+        <div style="background:yellow; width: 50px"> text2</div>
+    ]]></string>
+    <string name="html_07_tutor_subtitle"> Positioning</string>
+    <string name="html_07_tutor_05">Position of div elements can be absolute, fixed or relative.\n
+    Position starts from the top left corner of the screen. \n
+        Absolute: \n
+        Pretty easy to start with, as each element will stay on its own position even if window size is changed.
+    </string>
+    <string name="html_07_tutor_06"><![CDATA[
+    <div style="position: absolute; top: 70px; left: 20px; width: 50px; background-color: red;">
+    div content here
+    </div> \n
+    <div style="position: absolute; top: 10px; left: 75px; width: 50px; height: 150px; background-color: blue;">
+    div content here
+    </div> \n
+    <div style="position: absolute; top: 25px; left: 130px; width: 60px; height: 125px; background-color: yellow;">
+    div content here
+    </div>
+    ]]></string>
 
     <string name="title_activity_html_01">html_01</string>
     <string name="title_activity_html_02">html_02</string>
